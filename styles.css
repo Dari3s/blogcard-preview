@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Outfit:wght@100..900&display=swap");
+
+* {
+  font-family: "figtree";
+  font-weight: 500;
+  font-size: 16px;
+
+}
+body {
+  background-color: hsl(47, 88%, 63%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  min-height: 100vh;
+  max-width: 1440vh;
+}
+
+.blog-card {
+  background-color: hsl(0, 0%, 100%);
+  width: 375px;
+  border-radius: 20px;
+  box-shadow: 10px 10px 0 0 #000;
+  border: 1px solid #000;
+}
+
+.blog-section {
+  background-color: hsl(47, 88%, 63%);
+  font-weight: bold;
+  margin-top: 12px; /* move it downward */
+  display: inline-block;
+  padding: 6px;
+  border-radius: 3px;
+}
+
+figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  padding: 15px 20px;
+}
+
+figure img {
+  border-radius: 10px;
+  display: block;
+}
+
+.avatar {
+  height: 35px;
+  width: 35px;
+  display: inline-block;
+  padding-right: 15px;
+}
+
+h1 {
+  font-size: 25px;
+  font-weight: 800;
+}
+
+.card-footer {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+.card-footer > p {
+  font-weight: 800;
+}
+
+.description-text {
+  color: gray;
+  
+}
+
+/*The footer attribution*/
+.attribution {
+  margin-top: 30px;
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+  text-decoration: none;
+}
